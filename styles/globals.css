@@ -57,3 +57,18 @@ gap: 220px;
  gap:45px
 }
 }
+
+@media (width :360px) {
+  #carousel{
+    width: 350px;
+  }
+  #card{
+    position: relative;
+    right: 120px;
+   
+   }
+  #home{
+    height: 800px;
+  } 
+}
+

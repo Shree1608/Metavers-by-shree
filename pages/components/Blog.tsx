@@ -81,7 +81,7 @@ const Blog = () => {
       opacity : isInView? 1 : 0 ,
       transition :"all 0.9s cubic-bezier(0.17 ,0.55, 0.55, 1) 0.5s"   
      }}>
-        <div className="carousel  pt-16  lg:max-w-5xl sm:max-w-2xl max-w-md">
+        <div id='carousel' className="carousel  pt-16  lg:max-w-5xl sm:max-w-2xl max-w-md">
                   
      
                   <div className="relative overflow-hidden">
