@@ -46,7 +46,7 @@ const Faq = () => {
         How do you access the metaverse?
         </AccordionHeader>
         <AccordionBody className='text-white  p-4  '>
-        Facebook's metaverse is yet to exist. When it does, it will be accessible via VR headsets, augmented reality smart glasses like Ray-Ban Stories, and on desktop and mobile apps in a limited way.
+        Facebook &lsquo; s metaverse is yet to exist. When it does, it will be accessible via VR headsets, augmented reality smart glasses like Ray-Ban Stories, and on desktop and mobile apps in a limited way.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
