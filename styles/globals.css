@@ -71,4 +71,18 @@ gap: 220px;
     height: 800px;
   } 
 }
+@media (width :412px) {
+  #carousel{
+    width: 350px;
+  }
+  #card{
+    position: relative;
+    right: 100px;
+   
+   }
+  #home{
+    height: 800px;
+  } 
+}
+
 
