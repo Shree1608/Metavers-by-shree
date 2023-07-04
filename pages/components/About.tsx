@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 
-import { useInView } from 'framer-motion'
-import Upanimation from './animation'
+import { motion, useInView } from 'framer-motion'
+
 
 
 const About = () => {
@@ -10,9 +10,14 @@ const About = () => {
   return (
 
 <div className='bg-black' id='about'>
-     <Upanimation>
-     <h1 className='text-center text-transparent text-6xl font-extrabold pt-14 bg-clip-text bg-gradient-to-r from-white via-blue-200 to-blue-700'>About</h1>
-      </Upanimation>   
+    
+     <h1 ref={ref}
+     style={{
+      transform : isInView? "none" : "translateY(100px)",
+      opacity : isInView? 1 : 0 ,
+      transition :"all 0.9s cubic-bezier(0.17 ,0.55, 0.55, 1) 0.5s"   
+     }} className='text-center text-transparent text-6xl font-extrabold pt-14 bg-clip-text bg-gradient-to-r from-white via-blue-200 to-blue-700'>About</h1>
+      
     <div className="overflow-hidden py-24 sm:py-24  " >
   <div className="mx-auto max-w-7xl px-6 lg:px-20">
     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 ">
