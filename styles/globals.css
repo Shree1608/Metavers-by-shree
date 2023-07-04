@@ -58,7 +58,7 @@ gap: 220px;
 }
 }
 
-@media (width :360px) {
+@media (max-width :360px) {
   #carousel{
     width: 350px;
   }
