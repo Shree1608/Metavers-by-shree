@@ -1,0 +1,45 @@
+{
+    "resources": [
+      {
+        "title": "Artificial intelligence.",
+        "link": "https://www.xrtoday.com/virtual-reality/artificial-intelligence-in-the-metaverse-bridging-the-virtual-and-real/",
+        "imageUrl": "https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/05/virtual-reality-e1686030510791.jpg"
+      },
+      {
+        "title": "Security",
+        "link": "https://www.securitymagazine.com/articles/98142-9-security-threats-in-the-metaverse",
+        "imageUrl": "https://www.opensourceforu.com/wp-content/uploads/2023/03/Metaverse.jpg"
+      },
+      {
+        "title": "Incorporation of avatars",
+        "link": "https://link.springer.com/article/10.1365/s43439-022-00056-9",
+        "imageUrl": "https://www.cuinsight.com/wp-content/uploads/2022/04/bigstock-Young-Girl-Play-Vr-Virtual-Rea-441309968.jpg"
+      },
+  
+      {
+        "title": "Blockchain-based operations",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0167739X23000493#:~:text=Blockchain%20also%20enables%20the%20metaverse,for%20decentralized%20wallets%20and%20exchanges.",
+        "imageUrl": "https://www.supercryptonews.com/wp-content/uploads/2022/06/Metaverse_Blockchain.jpg"
+      },
+      {
+        "title": "The use of virtual land (parcels)",
+        "link": "https://decrypt.co/resources/what-is-virtual-land-how-nfts-are-shaping-the-metaverse",
+        "imageUrl": "https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/06/man-in-virtual-reality-e1685722595998.jpg"
+      },
+      {
+        "title": "Immersive experiences (ar and vr)",
+        "link": "https://www.veritone.com/blog/metaverse-immersive-augmented-reality/",
+        "imageUrl": "https://cdn.elearningindustry.com/wp-content/uploads/2018/12/ar-in-elearning-immerse-yourself-in-the-augmented-reality-environment-1024x574.png"
+      },
+      {
+        "title": "Supporting web3",
+        "link": "https://appinventiv.com/blog/web3-metaverse-for-digital-economy/",
+        "imageUrl": "https://blog-risingmax.s3.us-east-2.amazonaws.com/167213988663aad46e5cd23augemented-reality.webp"
+      },
+      {
+        "title": "Reliance on Human-Computer Interface (HCI) technology ",
+        "link": "https://www.researchgate.net/publication/365725802_Metaverse_and_Human-Computer_Interaction_A_Technology_Framework_for_3D_Virtual_Worlds",
+        "imageUrl": "https://img.etimg.com/photo/msid-89615999,imgsize-42814/inbetween1.jpg"
+      }
+    ]
+  }
