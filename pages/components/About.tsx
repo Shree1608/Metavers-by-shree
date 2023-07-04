@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
-import { Upanimation } from './animation'
+
 import { useInView } from 'framer-motion'
+import Upanimation from './animation'
 
 
 const About = () => {

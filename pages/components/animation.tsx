@@ -1,9 +1,11 @@
 import { AnimatePresence, motion } from "framer-motion"
 
-export const Upanimation = ({children} : any) => (
-  
+import React from 'react'
+
+const Upanimation = ({children} : any) => {
+  return (
     <AnimatePresence>
-        <motion.div 
+         <motion.div 
             initial = {{opacity : 0,y :70}}
             animate = {{opacity :1 , y:0}}
             exit={{opacity:0 ,y:96}}
@@ -14,8 +16,10 @@ export const Upanimation = ({children} : any) => (
                 ease :'easeInOut'
             }}
         >
-            {children}
-        </motion.div>
-    </AnimatePresence>
-   
-)
+             {children}
+         </motion.div>
+     </AnimatePresence>
+  )
+}
+
+export default Upanimation

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import data from '../components/data.json'
 import { useInView } from 'framer-motion';
-import { Upanimation } from './animation';
+
 interface Resource {
     title: string;
     imageUrl: string;

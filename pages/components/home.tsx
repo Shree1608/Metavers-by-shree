@@ -1,7 +1,8 @@
 
 import { Card } from 'flowbite-react'
 import React from 'react'
-import { Upanimation } from './animation'
+import Upanimation from './animation'
+
 
 const Home1 = () => (
    

@@ -2,7 +2,7 @@ import { Accordion, AccordionBody, AccordionHeader } from '@material-tailwind/re
 import { useInView } from 'framer-motion';
 import React, { useRef } from 'react'
 import { Fragment, useState } from "react";
-// import { Upanimation } from './animation';
+
 
 
 function Icon({ id, open }:{id : number , open:number}) {
