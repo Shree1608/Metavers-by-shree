@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Navbar from './components/Navbar'
+
 
 import Nav from './components/Nav'
 import Home1 from './components/home'
